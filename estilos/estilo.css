@@ -1,0 +1,227 @@
+html,
+body {
+  font-family: "Rubik", sans-serif;
+  background-image: url(../multimedia/fondo-frutas.png);
+}
+
+.separador {
+  margin: 2rem auto;
+}
+
+h2 {
+  color: #FEF8D4;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #55602c;
+  font-size: 1.5rem;
+}
+
+h4 {
+  color: #55602c;
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/** SCROLL **/
+::-webkit-scrollbar {
+  width: 0.5rem;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FEF8D4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7a893f;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C5DE62;
+}
+
+/* NAVBAR */
+.fondonav {
+  background: #c5de62;
+}
+
+#logo {
+  text-indent: -2500px;
+  overflow: hidden;
+  vertical-align: middle;
+
+  height: 3rem;
+  width: 7rem;
+  background: url("../multimedia/logo_frutland.svg") no-repeat center center;
+  margin: 0 2rem;
+}
+
+#logo a {
+  display: block;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.nav-item a:hover {
+  font-weight: 500;
+}
+
+/* CARDS */
+
+.card {
+  background: #c5de62;
+  border: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(0.95);
+  background: #deb562;
+}
+
+/*color botones*/
+.btn,
+.btn-primary {
+  background: #55602c;
+  border: none;
+}
+
+@media screen and (min-width: 991px) {
+  .btn-primary:hover {
+    background: #c5de62;
+    box-shadow: 2px 2px 0 #55602c inset;
+    color: #1a1a1a;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .btn-primary:hover {
+    background: #55602c;
+  }
+}
+
+/* QUIENES SOMOS */
+
+#quienessomos,
+#nuestraproduccion,
+#contacto {
+  background: #c5de62;
+  border-radius: 15px;
+}
+
+/* FORMULARIO*/
+
+
+/* MAPA */
+
+.mapa {
+  background-color: #55602c;
+  border-radius: 25px;
+  width: 550px;
+  height: 450px;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+/* FOOTER */
+
+span {
+  font-weight: 600;
+}
+
+footer {
+  background: #C5DE62;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+/*ANIMACIÓN RRSS*/
+@-moz-keyframes bump {
+  33% {
+    -moz-transform: scale(1.3);
+  }
+
+  66% {
+    -moz-transform: scale(0.8);
+  }
+
+  100% {
+    -moz-transform: scale(1.0);
+  }
+}
+
+@-webkit-keyframes bump {
+  33% {
+    -webkit-transform: scale(1.3);
+  }
+
+  66% {
+    -webkit-transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1.0);
+  }
+}
+
+@keyframes bump {
+  33% {
+    transform: scale(1.3);
+  }
+
+  66% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+.fa {
+  font-size: 2rem;
+  margin: 0 1rem;
+  color: #1a1a1a;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+i:not(:first-child):not(:last-child) {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+i:hover {
+  -webkit-animation: bump .25s ease-in-out;
+  -moz-animation: bump .25s ease-in-out;
+  animation: bump .25s ease-in-out;
+  cursor: pointer;
+}
+
+.fa-instagram:hover {
+  color: #b100a3;
+}
+
+.fa-twitter:hover {
+  color: #55acee;
+}
+
+.fa-tiktok:hover {
+  color: #060143;
+}
