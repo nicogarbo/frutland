@@ -1,0 +1,37 @@
+# Ignorar archivos y directorios específicos
+.idea/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos compilados y generados por el sistema
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.pyc
+*.class
+*.o
+*.a
+*.dll
+*.exe
+*.obj
+
+# Ignorar archivos de respaldo de editores de texto
+*~
+.#*
+.#*/
+._*
+*.orig
+
+# Ignorar archivos de caché y registros
+*.cache
+*.log
+
+# Ignorar archivos de configuración locales
+*.env
